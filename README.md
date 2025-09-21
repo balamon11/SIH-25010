@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:21/9/2025
+## Register Number:25005672
+## Name:Balaji T
 ## Problem Title
 SIH 25010: Smart Crop Advisory System for Small and Marginal Farmers
 ## Problem Description
@@ -41,10 +41,48 @@ Government of Punjab
 Agriculture, FoodTech & Rural Development
 
 ## Proposed Solution
-<h3>Remove These Lines</h3>
-<ul><li>Detailed explanation of the proposed solution</li>
-<li>How it addresses the problem</li>
-<li>Innovation and uniqueness of the solution</li></ul>
+I propose the development of a multilingual, AI-powered mobile application and chatbot designed to provide small farmers with personalized, real-time, and trustworthy agricultural advisory services. The solution combines scientific recommendations, traditional farming knowledge and modern engagement tools to ensure usability and adoption, even among farmers with low digital literacy.
+
+<h1>Key Features</h1>
+
+1.<h3>Crop & Soil Advisory</h3>
+
+    * Farmers upload a photo of the soil for analysis
+
+    * AI model suggests Smart fertilizer dosageto reduce costs and prevent overuse
+
+<h3>2.Weather & Alert System</h3>
+
+    * Location-based weather data with simple, actionable advice.
+
+    * Timely alerts in local languages (e.g., “Heavy rain tomorrow – postpone pesticide spraying”).
+
+<h3>3.Pest and Disease Detection</h3>
+
+    * Farmers upload a photo of affected crop.
+
+    * AI model suggests probable pest/disease and remedies
+
+<h3>4.Farmers’ Voices – Weekend Advisory Sessions</h3>
+
+      * Weekly interviews featuring a successful traditional farmer + a modern agri-student/expert.
+      * Jointly share do’s & don’ts, practical tips, and seasonal guidance.
+
+      * Available in multiple formats: short videos, audio podcasts, and text summaries.
+
+      * Multilingual subtitles + voiceovers ensure accessibility across regions.
+
+      * Push notifications to alert farmers every weekend.
+
+This bridges trust from peer farmers and science from students/experts, making the app engaging, credible, and community-driven.
+
+<h3>5.Voice & Multilingual Support</h3>
+
+    * Text-to-speech and speech-to-text in regional languages.
+
+    * Designed for farmers with low literacy levels.
+   
+
 
 ## Technical Approach
 <h3>Remove These Lines</h3>
