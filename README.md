@@ -47,48 +47,93 @@ I propose the development of a multilingual, AI-powered mobile application and c
 
 1.<h3>Crop & Soil Advisory</h3>
 
-    * Farmers upload a photo of the soil for analysis
+* Farmers upload a photo of the soil for analysis
 
-    * AI model suggests Smart fertilizer dosageto reduce costs and prevent overuse
+* AI model suggests Smart fertilizer dosageto reduce costs and prevent overuse
 
 <h3>2.Weather & Alert System</h3>
 
-    * Location-based weather data with simple, actionable advice.
+* Location-based weather data with simple, actionable advice.
 
-    * Timely alerts in local languages (e.g., “Heavy rain tomorrow – postpone pesticide spraying”).
+* Timely alerts in local languages (e.g., “Heavy rain tomorrow – postpone pesticide spraying”).
 
 <h3>3.Pest and Disease Detection</h3>
 
-    * Farmers upload a photo of affected crop.
+* Farmers upload a photo of affected crop.
 
-    * AI model suggests probable pest/disease and remedies
+* AI model suggests probable pest/disease and remedies
 
 <h3>4.Farmers’ Voices – Weekend Advisory Sessions</h3>
 
-      * Weekly interviews featuring a successful traditional farmer + a modern agri-student/expert.
-      * Jointly share do’s & don’ts, practical tips, and seasonal guidance.
+* Weekly interviews featuring a successful traditional farmer + a modern agri-student/expert. Jointly share do’s & don’ts, practical tips, and seasonal guidance.
 
-      * Available in multiple formats: short videos, audio podcasts, and text summaries.
+* Available in multiple formats: short videos, audio podcasts, and text summaries.
 
-      * Multilingual subtitles + voiceovers ensure accessibility across regions.
+* Multilingual subtitles + voiceovers ensure accessibility across regions.
 
-      * Push notifications to alert farmers every weekend.
+* Push notifications to alert farmers every weekend.
 
 This bridges trust from peer farmers and science from students/experts, making the app engaging, credible, and community-driven.
 
 <h3>5.Voice & Multilingual Support</h3>
 
-    * Text-to-speech and speech-to-text in regional languages.
+* Text-to-speech and speech-to-text in regional languages.
 
-    * Designed for farmers with low literacy levels.
+* Designed for farmers with low literacy levels.
    
 
 
 ## Technical Approach
-<h3>Remove These Lines</h3>
-<ul><li>Technologies to be used (e.g. programming languages, frameworks, hardware)
-</li>
-<li>Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b></li></ul>
+<h3>1. Mobile Application (Frontend)</h3>
+
+* Framework: Flutter or React Native for cross-platform compatibility (Android/iOS).
+
+* User Interface: Simple, icon-driven design with minimal text to support low literacy levels.
+
+* Language Support: Regional language selection during onboarding; all content available in multiple Indian languages.
+
+* Voice Interaction: Integrated text-to-speech (TTS) and speech-to-text (STT) for easy use by non-literate farmers.
+
+* Offline Mode: Key advisories, past interviews, and market prices cached for access without internet.
+
+<h3>2.Backend</h3>
+
+* Cloud Backend: Firebase or AWS for scalable, real-time data handling.
+
+* Database: NoSQL database for storing farmer profiles, queries, and advisory logs.
+
+<h3>3.Machine Learning</h3>
+
+Pest & Disease Detection:
+
+   * Use TensorFlow Lite models
+    
+   * Image classification pipeline to detect crop diseases from farmer-uploaded photos.
+            
+<h3>4.Farmers’ Voices – Weekend Advisory Sessions</h3>
+
+* Content Creation: Recorded video/audio interviews with farmers and agri-students.
+
+* Hosting & Streaming: Firebase Storage, YouTube private channels, or AWS S3 for low-latency streaming.
+
+* Multilingual Subtitles: Auto-generated using STT + translation, then reviewed for accuracy.
+
+* Notification System: Firebase Cloud Messaging (FCM) to notify users of new weekend sessions.
+
+
+
+<h3>5.Data Security</h3>
+
+* Data Protection: Encrypted storage of farmer data (crop type, soil info, location).
+
+* Compliance: Aligned with government data security standards and agritech regulations
+
+<h3>6.Multilingual & Voice Technology</h3>
+      
+* Speech-to-Text (STT): Google Speech API, Vosk, or Azure Cognitive Services for regional language support.
+
+* Text-to-Speech (TTS): Google Cloud TTS, Amazon Polly, or open-source solutions for offline mode.
+
 
 ## Feasibility and Viability
 <h3>Remove These Lines</h3>
