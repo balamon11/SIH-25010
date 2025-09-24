@@ -84,6 +84,12 @@ This bridges trust from peer farmers and science from students/experts, making t
 
 
 ## Technical Approach
+
+
+<img width="1920" height="1080" alt="SiH" src="https://github.com/user-attachments/assets/21a30695-79f4-4a6a-a5b3-662a85c6edac" />
+
+
+
 <h3>1. Mobile Application (Frontend)</h3>
 
 * Framework: Flutter or React Native for cross-platform compatibility (Android/iOS).
@@ -133,6 +139,8 @@ Pest & Disease Detection:
 * Speech-to-Text (STT): Google Speech API, Vosk, or Azure Cognitive Services for regional language support.
 
 * Text-to-Speech (TTS): Google Cloud TTS, Amazon Polly, or open-source solutions for offline mode.
+
+<img width="1920" height="1080" alt="SiH" src="https://github.com/user-attachments/assets/1107b3f3-6061-42eb-a29f-a56f3bb3b723" />
 
 
 ## Feasibility and Viability
